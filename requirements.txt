@@ -1,0 +1,28 @@
+# ============================================
+# Core Stack (RAG & Evaluation)
+# ============================================
+langchain==0.2.17
+langchain-core==0.2.43
+langchain-community==0.2.19
+langchain-groq==0.1.9
+faiss-cpu==1.8.0.post1
+sentence-transformers==3.1.1
+FlagEmbedding==1.4.0
+pdfplumber==0.11.10
+pypdf==6.14.2
+fastapi>=0.115.0
+uvicorn==0.30.6
+streamlit==1.58.0
+groq==1.6.0
+python-dotenv==1.0.1
+pydantic==2.9.2
+pydantic-settings==2.14.2
+pandas==2.3.3
+numpy==1.26.4
+
+# ============================================
+# Evaluation & Retrieval packages
+# ============================================
+ragas==0.2.10
+rank-bm25==0.2.2
+python-multipart==0.0.32
